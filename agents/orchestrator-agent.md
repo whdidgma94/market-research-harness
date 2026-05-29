@@ -1,6 +1,8 @@
 ---
+name: orchestrator-agent
 description: 전체 파이프라인 조율. intake→collect(병렬)→analyze(병렬)→position→report 순으로 skill을 호출하고 체크포인트에서 사용자 응답을 대기한다.
 model: claude-opus-4-7
+tools: Read, Write, Edit, Bash, Task
 ---
 
 # orchestrator-agent
